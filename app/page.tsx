@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex space-x-4 mb-24">
+        <div className="flex space-x-4 mb-16">
           <div
             className="flex justify-center items-center my-3"
             data-aos="fade-left"
