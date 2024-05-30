@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto text-white overflow-hidden">
-      <div className="justify-center items-center flex flex-col mx-52 mb-12">
+      <div className="justify-center items-center flex flex-col mx-52">
         <h1
           className="text-7xl font-bold text-center py-4 mb-8 mt-4 text-white"
           data-aos="fade-down"
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex space-x-4 mb-24">
+        <div className="flex space-x-4 mb-16">
           <div
             className="flex justify-center items-center my-3"
             data-aos="fade-left"
@@ -81,7 +81,6 @@ export default function Home() {
           />
         </div>
         <Footer />
-        <br />
       </div>
     </div>
   );
